@@ -1,0 +1,36 @@
+{
+  "name": "jspm-issue-03-application",
+  "version": "1.0.0",
+  "description": "Illustration of an issue with JSPM/SystemJS.",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "jspm bundle index bundle.js",
+    "serve": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncochard/jspm-issue-03-application.git"
+  },
+  "keywords": [
+    "JSPM"
+  ],
+  "author": "Nicolas Cochard",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ncochard/jspm-issue-03-application/issues"
+  },
+  "homepage": "https://github.com/ncochard/jspm-issue-03-application#readme",
+  "jspm": {
+    "main": "index",
+    "format": "es6",
+    "directories": {},
+    "dependencies": {
+      "jspm-issue-03-module": "github:ncochard/jspm-issue-03-module@^1.0.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}
